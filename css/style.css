@@ -407,3 +407,4 @@ html.has-cursor .cursor{display:block}
 .voice blockquote i{font-style:normal;font-weight:700}
 .hero__inner{padding-bottom:78px!important}
 @media (max-width:640px){.hero__inner{padding-bottom:70px!important}}
+@media (max-width:640px){.badge text{font-size:15px!important;letter-spacing:.14em}}
