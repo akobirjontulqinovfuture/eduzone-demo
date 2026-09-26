@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Edu Zone — Nemis tili markazi · Toshkent (demo sayt)</title>
+<meta name="description" content="Edu Zone — Toshkentdagi nemis tili markazi: A1 dan B2 gacha, o‘zbek va rus tilida. Novza va Yunusobod filiallari. Demo sayt.">
+<meta name="theme-color" content="#06291B">
+<meta name="robots" content="noindex">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,300..800&family=Instrument+Serif:ital@0;1&family=Manrope:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<noscript><style>.preloader,.cursor{display:none!important}</style></noscript>
+</head>
+<body>
+
+<!-- DEMO BADGE -->
+<div class="demo-badge"><i></i><span>Demo — Edu Zone uchun maxsus tayyorlandi</span><a href="https://t.me/bilimplus_demo_bot" target="_blank" rel="noopener">Telegram bot demosi →</a></div>
+
+<!-- PRELOADER -->
+<div class="preloader" aria-hidden="true">
+  <div class="preloader__top">
+    <span class="preloader__logo"><i class="logo-mark"></i>Edu Zone</span>
+    <span>Toshkent — 2026</span>
+  </div>
+  <div class="preloader__words">
+    <span>Nemis tili</span><span>A1 → B2</span><span>Deutsch</span><span>Edu Zone</span>
+  </div>
+  <div class="preloader__bottom">
+    <span class="preloader__note">Deutsch wird geladen…</span>
+    <div class="preloader__count"><span class="preloader__num">000</span></div>
+  </div>
+  <div class="preloader__mark"><i class="logo-mark"></i></div>
+  <div class="preloader__bar"><i></i></div>
+</div>
+
+<!-- CURSOR -->
+<div class="cursor" aria-hidden="true">
+  <div class="cursor__dot"></div>
+  <div class="cursor__ring"><span class="cursor__label">Ko‘rish</span></div>
+</div>
+
+<!-- NAV -->
+<header class="nav">
+  <a href="#top" class="nav__logo" data-magnetic><i class="logo-mark"></i><span>Edu<b>Zone</b></span></a>
+  <nav class="nav__links" aria-label="Asosiy menyu">
+    <a href="#kurslar" class="link-roll"><span data-text="Kurslar">Kurslar</span></a>
+    <a href="#natijalar" class="link-roll"><span data-text="Raqamlar">Raqamlar</span></a>
+    <a href="#metod" class="link-roll"><span data-text="Metod">Metod</span></a>
+    <a href="#aloqa" class="link-roll"><span data-text="Aloqa">Aloqa</span></a>
+  </nav>
+  <a href="#yozilish" class="nav__cta" data-magnetic><span>Kursga yozilish</span><i class="dot"></i></a>
+</header>
+
+<main id="top">
+
+<!-- HERO -->
+<section class="hero" id="hero">
+  <canvas class="hero__gl" aria-hidden="true"></canvas>
+  <div class="hero__fallback" aria-hidden="true"></div>
+  <div class="hero__inner">
+    <div class="hero__meta">
+      <span class="pill"><i class="pulse"></i>🇩🇪 Nemis tili markazi</span>
+      <span class="hero__meta-r">O‘zbek tilida · На русском · A1 → B2</span>
+    </div>
+
+    <h1 class="hero__title" aria-label="Deutsch bugun boshlanadi.">
+      <span class="line"><span class="line__in split-chars">Deutsch</span></span>
+      <span class="line line--2"><span class="line__in"><em class="serif split-chars">bugun</em></span>
+        <span class="hero__aside">Novza (Chilonzor) va Yunusobod filiallarida — nemis tilini <u>o‘zbek va rus</u> tilida o‘rgatamiz.</span>
+      </span>
+      <span class="line"><span class="line__in split-chars">boshlanadi.</span></span>
+    </h1>
+
+    <div class="hero__bottom">
+      <p class="hero__lead">A1 dan B2 gacha bosqichma-bosqich: grammatika, jonli nutq, Mock imtihonlar va eventlar. Darajangizni aniqlash uchun adminga yozing.</p>
+      <div class="hero__ctas">
+        <a href="#yozilish" class="btn btn--light" data-magnetic><span class="btn__fill"></span><span class="btn__txt">Kursga yozilish <b>→</b></span></a>
+        <a href="https://t.me/eduzone_onlineadmin" target="_blank" rel="noopener" class="btn btn--ghost" data-magnetic><span class="btn__fill"></span><span class="btn__txt"><svg class="ico-tg" viewBox="0 0 24 24"><path d="M21.9 4.3 18.7 19.4c-.2 1.1-.9 1.3-1.8.8l-4.9-3.6-2.4 2.3c-.3.3-.5.5-1 .5l.3-5 9.2-8.3c.4-.4-.1-.6-.6-.2L6.1 13 1.2 11.5c-1.1-.3-1.1-1.1.2-1.6L20.5 2.6c.9-.3 1.7.2 1.4 1.7z"/></svg>Admin</span></a>
+      </div>
+      <div class="hero__scroll"><span>Pastga suring</span><i></i></div>
+    </div>
+
+    <div class="badge" aria-hidden="true">
+      <svg viewBox="0 0 200 200">
+        <defs><path id="circ" d="M100,100 m-78,0 a78,78 0 1,1 156,0 a78,78 0 1,1 -156,0"/></defs>
+        <text><textPath href="#circ">EDU ZONE ✦ DEUTSCH ✦ EDU ZONE ✦ DEUTSCH ✦ </textPath></text>
+      </svg>
+      <span class="badge__plus">DE</span>
+    </div>
+  </div>
+</section>
+
+<!-- MARQUEE -->
+<section class="marquee" aria-label="Kurslar">
+  <div class="marquee__band marquee__band--b"><div class="marquee__track" data-dir="1">
+    <span>Mock imtihonlar</span><i class="star"></i><span>Eventlar</span><i class="star"></i><span>Der · Die · Das</span><i class="star"></i><span>Partikeln</span><i class="star"></i>
+  </div></div>
+  <div class="marquee__band marquee__band--a"><div class="marquee__track" data-dir="-1">
+    <span>Nemis tili</span><i class="star"></i><span>Немецкий язык</span><i class="star"></i><span>A1 → B2</span><i class="star"></i><span>Edu Zone</span><i class="star"></i>
+  </div></div>
+</section>
+
+<!-- MANIFESTO -->
+<section class="manifesto sheet" data-nav="light" id="haqida">
+  <div class="sec-head">
+    <span class="sec-num">(01)</span><span class="sec-label">Biz haqimizda</span><span class="sec-right">Edu Zone — Toshkent</span>
+  </div>
+  <p class="manifesto__text" data-words>
+    Edu Zone — nemis tili markazi. Grammatik jihatdan <span class="chip chip--a"></span> to‘g‘ri gapirishning o‘zi yetarli emas: biz nutqni <em class="serif">tabiiy,</em> jonli va <span class="chip chip--b"></span> ishonchli qilishni o‘rgatamiz — <em class="serif">A1</em> dan B2 gacha.
+  </p>
+  <div class="manifesto__facts">
+    <div data-reveal><b>02</b><span>Filial — Novza (Chilonzor) va Yunusobod</span></div>
+    <div data-reveal><b>UZ · RU</b><span>Nemis tili o‘zbek va rus tilida</span></div>
+    <div data-reveal><b>8:00–22:00</b><span>Novza filiali ish vaqti</span></div>
+  </div>
+</section>
+
+<!-- COURSES (horizontal) -->
+<section class="courses" id="kurslar">
+  <div class="courses__head">
+    <span class="sec-num">(02)</span><span class="sec-label">Kurslar</span>
+    <div class="courses__progress"><i></i></div>
+  </div>
+  <div class="courses__track">
+    <div class="courses__intro">
+      <h2 class="big-title" data-split>Bitta til.<br><em class="serif">Uchta</em> yo‘l.</h2>
+      <p>O‘zbek yoki rus tilida o‘qing, imtihonga Mock bilan tayyorlaning. O‘ngga suring va o‘zingizga mosini tanlang.</p>
+      <span class="courses__hint">Suring <b>→</b></span>
+    </div>
+
+    <article class="card card--a" data-tilt data-cursor="view">
+      <div class="card__in">
+        <div class="card__art">
+          <div class="art-en">
+            <span class="art-en__aa" data-depth="30">Dd</span>
+            <span class="art-en__bubble b1" data-depth="55">Hallo!</span>
+            <span class="art-en__bubble b2" data-depth="70">Salom!</span>
+            <span class="art-en__ring" data-depth="15"></span>
+          </div>
+        </div>
+        <div class="card__body">
+          <div class="card__top"><span>01</span><span class="tag">A1 → B2</span></div>
+          <h3 class="card__title">Nemis tili</h3>
+          <ul class="card__list">
+            <li>O‘zbek tilida, noldan B2 gacha</li>
+            <li>Grammatika + jonli nutq</li>
+            <li>Dars jadvali <i class="nz">namuna</i></li>
+          </ul>
+          <div class="card__foot">
+            <div class="price"><b>000 000</b><span>so’m / oy · namuna</span></div>
+            <a href="#yozilish" class="btn-sm" data-course="de-uz" data-magnetic>Yozilish <b>→</b></a>
+          </div>
+        </div>
+        <div class="card__shine"></div>
+      </div>
+    </article>
+
+    <article class="card card--b" data-tilt data-cursor="view">
+      <div class="card__in">
+        <div class="card__art">
+          <div class="art-ielts">
+            <svg class="art-ielts__rings" data-depth="15" viewBox="0 0 300 300"><circle cx="150" cy="150" r="140"/><circle cx="150" cy="150" r="110"/><circle cx="150" cy="150" r="80"/><circle cx="150" cy="150" r="140" class="dash"/></svg>
+            <span class="art-ielts__score" data-depth="40">RU</span>
+            <span class="art-ielts__lbl" data-depth="60">Привет → Hallo</span>
+          </div>
+        </div>
+        <div class="card__body">
+          <div class="card__top"><span>02</span><span class="tag">На русском</span></div>
+          <h3 class="card__title">Немецкий язык</h3>
+          <ul class="card__list">
+            <li>Nemis tili rus tilida</li>
+            <li>So‘z oilalari (Wortfamilie) bilan tez yodlash</li>
+            <li>Guruh hajmi <i class="nz">namuna</i></li>
+          </ul>
+          <div class="card__foot">
+            <div class="price"><b>000 000</b><span>so’m / oy · namuna</span></div>
+            <a href="#yozilish" class="btn-sm" data-course="de-ru" data-magnetic>Yozilish <b>→</b></a>
+          </div>
+        </div>
+        <div class="card__shine"></div>
+      </div>
+    </article>
+
+    <article class="card card--c" data-tilt data-cursor="view">
+      <div class="card__in">
+        <div class="card__art">
+          <div class="art-code">
+            <span class="art-code__glyph" data-depth="35">B2</span>
+            <pre class="art-code__snip" data-depth="60"><span class="k">Mock</span> Prüfung:
+  <span class="s">Lesen ✓  Hören ✓</span>
+  <span class="s">Schreiben ✓ Sprechen</span><i class="caret"></i></pre>
+          </div>
+        </div>
+        <div class="card__body">
+          <div class="card__top"><span>03</span><span class="tag">A2 · B1 · B2</span></div>
+          <h3 class="card__title">Mock imtihon</h3>
+          <ul class="card__list">
+            <li>A2, B1 va B2 o‘quvchilari uchun</li>
+            <li>Imtihon formatiga moslashish</li>
+            <li>Novza va Yunusobod filiallarida</li>
+          </ul>
+          <div class="card__foot">
+            <div class="price"><b>000 000</b><span>so’m · namuna</span></div>
+            <a href="#yozilish" class="btn-sm" data-course="mock" data-magnetic>Yozilish <b>→</b></a>
+          </div>
+        </div>
+        <div class="card__shine"></div>
+      </div>
+    </article>
+
+    <div class="courses__outro">
+      <p class="courses__q">Qaysi daraja <em class="serif">sizga</em> mos?</p>
+      <a href="#yozilish" class="round-cta" data-magnetic><span>Darajani<br>aniqlaymiz</span><b>↘</b></a>
+    </div>
+  </div>
+</section>
+
+<!-- STATS -->
+<section class="stats sheet" data-nav="light" id="natijalar">
+  <div class="sec-head">
+    <span class="sec-num">(03)</span><span class="sec-label">Raqamlarda</span><span class="sec-right">Edu Zone bugun</span>
+  </div>
+  <h2 class="big-title big-title--ink" data-split>Edu Zone — <em class="serif">raqamlarda.</em></h2>
+  <div class="stats__grid">
+    <div class="stat" data-reveal><span class="stat__n" data-count="2">0</span><span class="stat__l">filial: Novza va Yunusobod</span></div>
+    <div class="stat" data-reveal><span class="stat__n" data-count="4">0</span><span class="stat__l">daraja: A1, A2, B1, B2</span></div>
+    <div class="stat" data-reveal><span class="stat__n" data-count="2">0</span><span class="stat__l">dars tili: o‘zbek va rus</span></div>
+    <div class="stat" data-reveal><span class="stat__n" data-count="14" data-suffix=" soat">0</span><span class="stat__l">Novza filiali: 08:00 — 22:00</span></div>
+  </div>
+</section>
+
+<!-- METHOD (stacking) -->
+<section class="method" data-nav="light" id="metod">
+  <div class="sec-head">
+    <span class="sec-num">(04)</span><span class="sec-label">Metod</span><span class="sec-right">Qanday o‘qitamiz</span>
+  </div>
+  <h2 class="big-title big-title--ink" data-split>To‘rt qadam — <em class="serif">Deutsch</em> sari.</h2>
+  <div class="stack">
+    <div class="step step--ink"><span class="step__n">01</span><div class="step__c"><h3>Darajani aniqlash</h3><p>Adminga yozing — darajangizni aniqlab, sizga mos guruh va tilni (o‘zbek yoki rus) tanlaymiz.</p></div><span class="step__g">A1</span></div>
+    <div class="step step--saffron"><span class="step__n">02</span><div class="step__c"><h3>Grammatika + nutq</h3><p>Der, die, das artikllaridan tortib Partikeln — modal yuklamalargacha: nutqingiz tabiiy va jonli bo‘ladi.</p></div><span class="step__g">Das</span></div>
+    <div class="step step--lilac"><span class="step__n">03</span><div class="step__c"><h3>Mock imtihonlar</h3><p>A2, B1 va B2 darajadagi o‘quvchilar uchun Mock imtihonlar — formatga moslashish va zaif mavzularni aniqlash.</p></div><span class="step__g">B1</span></div>
+    <div class="step step--lime"><span class="step__n">04</span><div class="step__c"><h3>Eventlar va natijalar</h3><p>Filiallardagi eventlar va o‘quvchilarning imtihon natijalari — har biri Telegram kanalimizda.</p></div><span class="step__g">B2</span></div>
+  </div>
+</section>
+
+<!-- CHANNEL SNIPPETS (real posts from @edu_zoneuz, no invented reviews) -->
+<section class="voices" data-nav="light" aria-label="Telegram kanalidan">
+  <div class="voices__head">
+    <span class="sec-num">(05)</span><span class="sec-label">Telegram kanalimizdan — mini-darslar</span>
+  </div>
+  <div class="voices__row">
+    <div class="voices__track">
+      <figure class="voice"><blockquote>“<i>Komm her!</i> — Bu yerga kel! <i>Komm mal her!</i> — Bu yerga kelsangchi 😊”</blockquote><figcaption><i style="--h:150"></i><b>Partikeln</b><span>@edu_zoneuz</span></figcaption></figure>
+      <figure class="voice"><blockquote>“<i>der Nagel</i> — tirnoq 💅, <i>der Nagel</i> — mix 🔨. Bir xil so‘z, boshqa ma’no.”</blockquote><figcaption><i style="--h:160"></i><b>Omonimlar</b><span>@edu_zoneuz</span></figcaption></figure>
+      <figure class="voice"><blockquote>“<i>Geduld</i> — терпение, <i>geduldig</i> — терпеливый, <i>ungeduldig</i> — нетерпеливый.”</blockquote><figcaption><i style="--h:140"></i><b>Wortfamilie</b><span>@edu_zoneuz</span></figcaption></figure>
+      <figure class="voice"><blockquote>“Der, Die yoki Das? So‘zlarni bilishning o‘zi yetarli emas — artikllarini ham to‘g‘ri tanish kerak!”</blockquote><figcaption><i style="--h:170"></i><b>Artikllar</b><span>@edu_zoneuz</span></figcaption></figure>
+      <figure class="voice"><blockquote>“Bu yerda o‘quvchilaringizning haqiqiy fikrlari va natijalari turadi.”</blockquote><figcaption><i style="--h:250"></i><b>O‘quvchi fikri</b><span class="nz">namuna</span></figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<!-- SIGNUP -->
+<section class="signup sheet" data-nav="light" id="yozilish">
+  <div class="signup__l">
+    <div class="sec-head sec-head--ink"><span class="sec-num">(06)</span><span class="sec-label">Kursga yozilish</span></div>
+    <h2 class="signup__title" data-split>Deutsch — <em class="serif">bugundan.</em></h2>
+    <p class="signup__lead">Formani to‘ldiring — admin siz bilan bog‘lanib, darajangiz va qulay vaqtni kelishib oladi. <i class="nz">demo forma</i></p>
+    <a href="https://t.me/eduzone_onlineadmin" target="_blank" rel="noopener" class="tg-cta" data-magnetic>
+      <span class="tg-cta__ico"><svg viewBox="0 0 24 24"><path d="M21.9 4.3 18.7 19.4c-.2 1.1-.9 1.3-1.8.8l-4.9-3.6-2.4 2.3c-.3.3-.5.5-1 .5l.3-5 9.2-8.3c.4-.4-.1-.6-.6-.2L6.1 13 1.2 11.5c-1.1-.3-1.1-1.1.2-1.6L20.5 2.6c.9-.3 1.7.2 1.4 1.7z"/></svg></span>
+      <span class="tg-cta__txt"><small>Tezroq javob kerakmi?</small>Telegram’da yozing <b>@eduzone_onlineadmin</b></span>
+    </a>
+    <a href="https://t.me/bilimplus_demo_bot" target="_blank" rel="noopener" class="tg-cta bot-cta" data-magnetic>
+      <span class="tg-cta__ico"><svg viewBox="0 0 24 24"><path d="M21.9 4.3 18.7 19.4c-.2 1.1-.9 1.3-1.8.8l-4.9-3.6-2.4 2.3c-.3.3-.5.5-1 .5l.3-5 9.2-8.3c.4-.4-.1-.6-.6-.2L6.1 13 1.2 11.5c-1.1-.3-1.1-1.1.2-1.6L20.5 2.6c.9-.3 1.7.2 1.4 1.7z"/></svg></span>
+      <span class="tg-cta__txt"><small>Ariza qabul qiluvchi bot — demo</small>Telegram botni sinab ko‘ring <b>→</b></span>
+    </a>
+  </div>
+  <form class="form" novalidate>
+    <div class="form__view">
+      <label class="field"><span class="field__l">Ismingiz</span><input type="text" name="name" autocomplete="name" placeholder="Masalan, Aziza" required><em class="field__err">Ismingizni kiriting</em></label>
+      <label class="field"><span class="field__l">Telefon raqamingiz</span><input type="tel" name="phone" inputmode="tel" autocomplete="tel" placeholder="+998 __ ___ __ __" required><em class="field__err">Raqamni to‘liq kiriting: +998 XX XXX XX XX</em></label>
+      <label class="field field--select"><span class="field__l">Kurs</span>
+        <select name="course" required>
+          <option value="" disabled selected>Kursni tanlang</option>
+          <option value="de-uz">Nemis tili — o‘zbek tilida</option>
+          <option value="de-ru">Немецкий язык — на русском</option>
+          <option value="mock">Mock imtihon (A2 · B1 · B2)</option>
+        </select><em class="field__err">Kursni tanlang</em></label>
+      <button type="submit" class="btn btn--saffron form__submit" data-magnetic><span class="btn__fill"></span><span class="btn__txt">Ariza qoldirish <b>→</b></span></button>
+      <p class="form__note">Demo: forma hozircha hech qayerga yuborilmaydi. Tugmani bosish orqali shaxsiy ma’lumotlarni qayta ishlashga rozilik bildirasiz.</p>
+    </div>
+    <div class="form__done" aria-live="polite">
+      <span class="form__check">✓</span>
+      <h3>Danke, <span class="form__name">do‘stim</span>!</h3>
+      <p>Arizangiz qabul qilindi (demo). Haqiqiy saytda u to‘g‘ridan-to‘g‘ri adminga Telegram orqali boradi.</p>
+      <button type="button" class="btn-sm form__again">Yana yuborish</button>
+    </div>
+  </form>
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="footer" id="aloqa">
+  <div class="footer__top">
+    <p class="footer__ask">Savollar bormi? <a href="https://t.me/eduzone_onlineadmin" target="_blank" rel="noopener" class="footer__phone" data-magnetic>@eduzone_onlineadmin</a></p>
+  </div>
+  <div class="footer__cols">
+    <div><h4>Manzil</h4><p>Novza filiali: Toshkent, Chilonzor tumani,<br>Muqimiy ko‘chasi, 142/1 (Novza metro)</p><p>Yunusobod filiali: manzil <i class="nz">namuna</i></p></div>
+    <div><h4>Ish vaqti</h4><p>Novza filiali<br>08:00 — 22:00</p></div>
+    <div><h4>Telegram</h4><p class="footer__soc"><a href="https://t.me/edu_zoneuz" target="_blank" rel="noopener" class="link-roll"><span data-text="Kanal @edu_zoneuz">Kanal @edu_zoneuz</span></a><a href="https://t.me/eduzone_onlineadmin" target="_blank" rel="noopener" class="link-roll"><span data-text="Admin">Admin</span></a><a href="https://t.me/eduzone_novza" target="_blank" rel="noopener" class="link-roll"><span data-text="Novza filiali">Novza filiali</span></a></p></div>
+    <div><h4>Menyu</h4><p class="footer__soc"><a href="#kurslar" class="link-roll"><span data-text="Kurslar">Kurslar</span></a><a href="#metod" class="link-roll"><span data-text="Metod">Metod</span></a><a href="https://t.me/bilimplus_demo_bot" target="_blank" rel="noopener" class="link-roll"><span data-text="Bot demosi">Bot demosi</span></a></p></div>
+  </div>
+  <div class="footer__word" aria-label="Edu Zone"><span>E</span><span>d</span><span>u</span><span class="sp"></span><span>Z</span><span>o</span><span>n</span><span>e</span></div>
+  <div class="footer__bar">
+    <span>© 2026 Edu Zone. Demo sayt — “namuna” deb belgilangan narx, jadval va matnlar misol uchun.</span>
+    <a href="#top" class="to-top" data-magnetic>Yuqoriga ↑</a>
+  </div>
+</footer>
+
+<script src="assets/vendor/gsap.min.js"></script>
+<script src="assets/vendor/ScrollTrigger.min.js"></script>
+<script src="assets/vendor/lenis.min.js"></script>
+<script src="js/gl.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
